@@ -10,6 +10,7 @@ Our paper introduces two new datasets:
 
 ### 1. TwinViews-13k
 - **File**: `data/twinviews-13k.csv`
+- **Huggingface**: [wwbrannon/twinviews-13k](https://huggingface.co/datasets/wwbrannon/twinviews-13k)
 - **Description**: 
   TwinViews-13k is a dataset of 13,855 pairs of political statements, with one statement in each pair representing a left-leaning perspective and another a right-leaning perspective on a wide range of political topics. Each pair is topically matched to ensure comparability. The statements were generated with GPT-3.5 Turbo and extensively audited for quality by the authors. This dataset is designed for research on political bias in reward models and language models, and provides one of the first large datasets of topically matched political opinion pairs. It should be particularly useful for evaluating model alignment with human political values.
 
@@ -20,6 +21,7 @@ Our paper introduces two new datasets:
 
 ### 2. TruthGen (Generated Truthfulness Data)
 - **File**: `data/truthfulness-no-pol-truthgen.csv`
+- **Huggingface**: [wwbrannon/TruthGen](https://huggingface.co/datasets/wwbrannon/TruthGen)
 - **Description**: 
   TruthGen is a dataset of 1,987 true/false statement pairs (comprising nearly 4,000 total statements) generated using GPT-3.5, GPT-4 and Gemini. Each statement pair contains one true and one false statement. The data was curated to avoid political content and focuses on everyday, non-political facts. It provides an additional dataset for training models on truthfulness, especially in settings where political bias is an important consideration.
 
